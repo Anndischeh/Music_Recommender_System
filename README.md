@@ -8,23 +8,19 @@ In this repository, we focus on implementing a music recommender system using th
 ## Methods 
 ### KNN (K-Nearest Neighbors)
 This KNN-based music recommendation algorithm utilizes a pre-trained model and feature scaling to provide personalized song suggestions. By measuring the similarity between songs, it efficiently identifies tracks aligned with user preferences. Users can receive recommendations based on either specific song inputs or feature vectors, enhancing their music discovery experience.
-
-![KNN](http://url/to/img.png)
+<img src="https://github.com/Anndischeh/Music_Recommender_System/blob/39e015bfc7e60d2cccf16e4410160d103990d04a/Media/Knn.png" alt="KNN" style="width:25%;">
 
 ### KMeans
 The KMeans algorithm determines the optimal number of clusters using the Elbow Method, ensuring accurate grouping of songs. It identifies the ideal clustering configuration and applies KMeans clustering to categorize songs based on their features, enabling personalized music recommendations aligned with user preferences.
-
-![KMeans](http://url/to/img.png)
-
-### GCN (Graph Convolutional Network)
-The GCN model for music recommendation processes graph-structured data to infer relationships between songs. With input, hidden, and output layers, it learns representations of songs based on their features and the connections between them. By leveraging adjacency matrices, it captures intricate relationships within the music dataset, enabling accurate recommendation predictions.
-
-![GCN](http://url/to/img.png)
+<img src="https://github.com/Anndischeh/Music_Recommender_System/blob/39e015bfc7e60d2cccf16e4410160d103990d04a/Media/Kmeans.png" alt="KMeans" style="width:25%;">
 
 ### NN (Neural Network)
 The Neural Network model for music recommendation utilizes a feedforward neural network architecture. With input, hidden, and output layers, it learns complex patterns within music data to make personalized recommendations. By applying nonlinear activation functions, such as ReLU, it captures intricate relationships between input features, enhancing recommendation accuracy.
 
-![NN](http://url/to/img.png)
+### GCN (Graph Convolutional Network)
+The GCN model for music recommendation processes graph-structured data to infer relationships between songs. With input, hidden, and output layers, it learns representations of songs based on their features and the connections between them. By leveraging adjacency matrices, it captures intricate relationships within the music dataset, enabling accurate recommendation predictions.
+<img src="https://github.com/Anndischeh/Music_Recommender_System/blob/39e015bfc7e60d2cccf16e4410160d103990d04a/Media/GCN.png" alt="GCN" style="width:25%;">
+
 
 ## Example 
 ### KNN Recommendations based on sample features:
